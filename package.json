@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass sass/main.scss css/style.css --watch",
-    "devserver": "browser-sync start --server --files \"css/*.css\"",
+    "devserver": "browser-sync start --server --files \"css/*.css\" \"index.html\"",
     "start": "npm-run-all --parallel watch:sass devserver",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.comp.css -o css/style.prefix.css",
