@@ -183,7 +183,25 @@ body {
 .btn-inline:hover {
   color: black;
 }
+.btn-inline:focus {
+  outline: none;
+  animation: pulserate 1s infinite;
+}
 
+@keyframes pulserate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+}
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -269,13 +287,33 @@ body {
   width: 1.75rem;
   fill: var(--color-primary);
 }
+.overview__icon-location {
+  margin-right: 0.5rem;
+}
 .overview__location {
   display: flex;
+  vertical-align: center;
+  font-size: 1.2rem;
 }
 .overview__rating {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  background-color: var(--color-primary);
+  color: #FFF;
+  margin-left: 3rem;
+  align-self: stretch;
+  padding: 0 2.25rem;
+}
+.overview__rating-average {
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin-bottom: -3px;
+}
+.overview__rating-count {
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
