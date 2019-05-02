@@ -1,5 +1,4 @@
 .gallery {
-
     display: flex;
 
     &__photo {
@@ -11,20 +10,46 @@
 
 .overview {
     display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey-light-2);
 
     &__heading {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
+        cursor: pointer;
     }
 
-    &__icon {
-        height: 2rem;
-        width: 2rem;
+    &__stars {
+        margin-right: auto;
+        cursor: pointer;
+        display: flex;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        height: 1.75rem;
+        width: 1.75rem;
         fill: var(--color-primary);
+    }
+
+    &__location {
+        display: flex;
     }
 
     &__rating {
         display:flex;
         align-items: center;
         flex-direction: column;
+
+        &__rating-average {
+
+        }
+
+        &__rating-count {
+
+        }
     }
 }
