@@ -324,7 +324,7 @@ body {
   border-bottom: var(--line);
 }
 .detail .description {
-  background-color: orangered;
+  background-color: #FFF;
   flex: 0 0 60%;
   margin-right: 4.5rem;
   box-shadow: var(--shadow-light);
