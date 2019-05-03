@@ -356,6 +356,8 @@ body {
   background-color: var(--color-primary);
   -webkit-mask-image: url(../img/chevron-thin-right.svg);
   -webkit-mask-size: cover;
+  mask-image: url(../img/chevron-thin-right.svg);
+  mask-size: cover;
 }
 .detail .description .recommend__photo {
   border-radius: 50%;
