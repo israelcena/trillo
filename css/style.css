@@ -331,6 +331,9 @@ body {
   padding: 3rem;
   font-size: 1.4rem;
 }
+.detail .description .paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
 .detail .description .list {
   display: flex;
 }
