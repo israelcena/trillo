@@ -330,6 +330,7 @@ body {
   margin-right: 4.5rem;
   box-shadow: var(--shadow-light);
   padding: 3rem;
+  font-size: 1.4rem;
 }
 .detail .user-reviews {
   background-color: green;
