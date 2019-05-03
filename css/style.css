@@ -331,6 +331,15 @@ body {
   padding: 3rem;
   font-size: 1.4rem;
 }
+.detail .description .list {
+  display: flex;
+}
+.detail .description .list__item {
+  list-style: none;
+}
+.detail .description .recommend__photo {
+  border-radius: 50%;
+}
 .detail .user-reviews {
   background-color: green;
   flex: 1;

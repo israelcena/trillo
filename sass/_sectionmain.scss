@@ -82,6 +82,35 @@
     box-shadow: var(--shadow-light);
     padding: 3rem;
     font-size: 1.4rem;
+
+    .paragraph {
+
+    }
+    
+    .list {
+        display: flex;
+
+
+        &__item {
+            list-style: none;
+        }
+    }
+
+    .recommend {
+
+        &__count {
+
+        }
+
+        &__friends {
+
+        }
+
+        &__photo {
+            border-radius: 50%;
+        }
+    }
+
    } 
 
    .user-reviews {
