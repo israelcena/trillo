@@ -20,9 +20,10 @@
 
 //sizes for media queries
 
-$bp-largest: 75em;
-$bp-large: 68.75em;
-$bp-medium: 56.25em;
+$bp-largest: 75em;      // 1200px
+$bp-large: 68.75em;     // 1100px
+$bp-medium: 56.25em;    // 900px
+$bp-small: 37.5em;      // 600px
 
 * {
     margin: 0;
