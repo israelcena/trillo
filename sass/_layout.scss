@@ -27,6 +27,10 @@
 .content {
     background-color: var(--color-grey-light-3);
     display: flex;
+
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
 }
 
 .sidebar {

@@ -30,6 +30,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -70,6 +75,11 @@ body {
 .content {
   background-color: var(--color-grey-light-3);
   display: flex;
+}
+@media only screen and (max-width: 56.25em) {
+  .content {
+    flex-direction: column;
+  }
 }
 
 .sidebar {
@@ -224,11 +234,27 @@ body {
   list-style: none;
   margin-top: 3.5rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .side-nav {
+    display: flex;
+    margin: 0;
+  }
+}
 .side-nav__item {
   position: relative;
 }
 .side-nav__item:not(:last-child) {
   margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .side-nav__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .side-nav__item {
+    flex: 1;
+  }
 }
 .side-nav__item::before {
   content: "";
@@ -259,6 +285,12 @@ body {
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 56.25em) {
+  .side-nav__link:link, .side-nav__link:visited {
+    justify-content: center;
+    padding: 2rem;
+  }
+}
 .side-nav__icon {
   height: 1.75rem;
   width: 1.75rem;
@@ -271,6 +303,11 @@ body {
   text-align: center;
   padding: 2.5rem;
   color: var(--color-grey-light-4);
+}
+@media only screen and (max-width: 56.25em) {
+  .legal {
+    display: none;
+  }
 }
 
 .gallery {
@@ -340,12 +377,23 @@ body {
   border-bottom: var(--line);
   font-size: 1.2rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .detail {
+    padding: 3rem;
+  }
+}
 .detail .description {
   background-color: #FFF;
   flex: 0 0 60%;
   margin-right: 4.5rem;
   box-shadow: var(--shadow-light);
   padding: 3rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .detail .description {
+    margin-right: 3rem;
+    padding: 2rem;
+  }
 }
 .detail .description .paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
@@ -384,6 +432,9 @@ body {
 .detail .description .recommend__count {
   margin-right: auto;
 }
+.detail .description .recommend__friends {
+  display: flex;
+}
 .detail .description .recommend__photo {
   box-sizing: content-box;
   height: 4rem;
@@ -392,7 +443,7 @@ body {
   border: 3px solid #FFF;
 }
 .detail .description .recommend__photo:not(:last-child) {
-  margin-right: -1.5rem;
+  margin-right: -2rem;
 }
 
 .user-reviews {
@@ -409,6 +460,12 @@ body {
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+}
+@media only screen and (max-width: 56.25em) {
+  .review {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
 }
 .review__text {
   margin-bottom: 2rem;
@@ -459,6 +516,11 @@ body {
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+}
+@media only screen and (max-width: 56.25em) {
+  .cta {
+    padding: 2.5rem 0;
+  }
 }
 .cta__book-now {
   font-size: 1.2rem;
