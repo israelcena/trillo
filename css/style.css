@@ -71,6 +71,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 31.25em) {
+  .header {
+    flex-wrap: wrap;
+    height: 11rem;
+  }
+}
 
 .content {
   background-color: var(--color-grey-light-3);
@@ -105,6 +111,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 31.25em) {
+  .search {
+    order: 1;
+    flex: 0 0 100%;
+  }
+}
 .search__input {
   font-family: inherit;
   font-size: inherit;
@@ -121,6 +133,11 @@ body {
   outline: none;
   width: 100%;
   background-color: var(--color-grey-light-3);
+}
+@media only screen and (max-width: 31.25em) {
+  .search__input:focus {
+    width: 95%;
+  }
 }
 .search__input::-webkit-input-placeholder {
   font-size: inherit;
