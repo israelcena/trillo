@@ -1,6 +1,12 @@
 # The trillo Project
 
-This project is only for learning for the flexbox
+[The Trillo Project](./trillo.png)
+
+This project is only for learning the flexbox!
+
+This project was to make ony with flexbox
+
+[visit this project](https://musing-lovelace-93fb14.netlify.app/)
 
 this is not a real organization
 
