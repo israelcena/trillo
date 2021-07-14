@@ -1,6 +1,6 @@
 # The trillo Project
 
-[The Trillo Project](./trillo.png)
+![The Trillo Project](./trillo.png)
 
 This project is only for learning the flexbox!
 
