@@ -8,5 +8,5 @@ This project was to make only with flexbox !
 
 This is not a real organization
 
-This site no have my own type for codding, for see more projects go to my personal website
+For see more projects go to my personal website
 https://israelcena.com.br
